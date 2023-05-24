@@ -7,8 +7,8 @@ This time I tried the following different versions.
 **apps/latest-app**
 
 - React: 18.2.0
-- vite: 4.3.2
-- TypeScript: 5.0.2
+- vite: 4.3.8
+- TypeScript: 5.0.4
 
 **apps/legacy-app**
 
