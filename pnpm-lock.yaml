@@ -3,10 +3,6 @@ lockfileVersion: '6.0'
 importers:
 
   .:
-    dependencies:
-      show-react-version:
-        specifier: workspace:^
-        version: link:libs/show-react-version
     devDependencies:
       prettier:
         specifier: 2.8.8

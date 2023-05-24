@@ -10,8 +10,5 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "2.8.8"
-  },
-  "dependencies": {
-    "show-react-version": "workspace:^"
   }
 }
