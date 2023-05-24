@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-with-pnpm",
+  "packageManager": "pnpm@8.5.1",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "2.8.8"
+  },
+  "dependencies": {
+    "show-react-version": "workspace:^"
+  }
+}

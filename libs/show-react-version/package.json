@@ -1,0 +1,27 @@
+{
+  "name": "show-react-version",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test:unit": "vitest --dir src --run",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@testing-library/react": "14.0.0",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "@vitejs/plugin-react": "4.0.0",
+    "happy-dom": "9.20.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tsup": "6.7.0",
+    "typescript": "5.0.4",
+    "vitest": "0.31.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0 || ^18.0"
+  }
+}
